@@ -86,7 +86,7 @@ AP.main(dataset=df)
 Output:
 
 ```
-**-> Origninal data Stats calculating...**
+-> Origninal data Stats calculating...
 
 Number of Tokens (words) in the orijinal dataset (before any pre-processing) : 8851197
 Number of Characters in the original dataset (before any pre-processing) : 46860802 
