@@ -152,6 +152,15 @@ text                                              label  tokens_count  char_coun
 ...  ...
 ```
 
+```
+| text                                              | label    | tokens_count | char_count | tokens_count2 |
+|---------------------------------------------------|----------|--------------|------------|--------------|
+| اجتمع رئيس الوزراء بعدد من أعضاء مجلس الوزراء...  | politics | 162          | 1089       | 161          |
+| فاز الفريق المحلي في نهائي بطولة الكرة الطائرة... | sport    | 193          | 1076       | 191          |
+| افتتحت المعرض الفني للفنان المبدع يعرض فيه...     | art      | 450          | 2551       | 442          |
+| ...                                               | ...      | ...          | ...        | ...          |
+```
+
 #### After Data Stemming:
 ```
 text                                              label  tokens_count  char_count  tokens_count2  char_count2  tokens_count3  char_count3
