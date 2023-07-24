@@ -1,0 +1,1 @@
+from .arabicpreprocessing import process
