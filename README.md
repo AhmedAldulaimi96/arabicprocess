@@ -125,15 +125,6 @@ Time required to complete pre-processing steps: 453.09  second  ( 7.55  minute).
 
 - If you set the `csv` parameter to `True`, each of these datasets will be saved as CSV files after their respective preprocessing stages. You will get CSV files for the data after data cleaning, stop word removal, and stemming with the filenames `1after_Cleaning.csv`, `2after_Stop_word_remove.csv`, and `3after_stemming.csv`, respectively. These CSV files will contain the preprocessed data with the respective columns for tokens and characters counts.
 
-#### Original Dataset:
-```
-                                                text     label
-0  اجتمع رئيس الوزراء بعدد من أعضاء مجلس الوزراء لبحث القضايا المهمة في البلاد.  politics
-1  فاز الفريق المحلي في نهائي بطولة الكرة الطائرة الوطنية بنتيجة 3-1.     sport
-2  افتتحت المعرض الفني للفنان المبدع، يعرض فيه أحدث أعماله التشكيلية.       art
-...  ...
-```
-
 #### After Data Cleaning:
 ```
 text                                              label  tokens_count  char_count  tokens_count2
@@ -146,18 +137,18 @@ text                                              label  tokens_count  char_coun
 #### After Stop Word Removal:
 ```
 text                                              label  tokens_count  char_count  tokens_count2  char_count2
-0   اجتمع رئيس الوزراء بعدد أعضاء مجلس الوزراء لبحث القضايا المهمة البلاد  Art          162        1089            161         1054
-1   فاز الفريق المحلي نهائي بطولة الكرة الطائرة الوطنية بنتيجة  Art          193        1076            191         1030
-2   افتتحت المعرض الفني للفنان المبدع يعرض أحدث أعماله التشكيلية  Art          450        2551            442         2496
+0   اجتمع رئيس الوزراء بعدد أعضاء مجلس الوزراء لبحث القضايا المهمة البلاد  politics          162        1089            161         1054
+1   فاز الفريق المحلي نهائي بطولة الكرة الطائرة الوطنية بنتيجة  sport          193        1076            191         1030
+2   افتتحت المعرض الفني للفنان المبدع يعرض أحدث أعماله التشكيلية  art          450        2551            442         2496
 ...  ...
 ```
 
 #### After Data Stemming:
 ```
 text                                              label  tokens_count  char_count  tokens_count2  char_count2  tokens_count3  char_count3
-0   اجتمع رئيس وزراء عدد أعضاء مجلس وزراء بحث قضايا مهم بلاد  Art          162        1089            161         1054            156          992
-1   فاز فريق محلي نهائي بطولة كرة طائرة وطني نتيجة  Art          193        1076            191         1030            189          987
-2   افتتح معرض فني فنان مبدع عرض أحدث أعمال تشكيل  Art          450        2551            442         2496            438         2420
+0   اجتمع رئيس وزراء عدد أعضاء مجلس وزراء بحث قضايا مهم بلاد  politics          162        1089            161         1054            156          992
+1   فاز فريق محلي نهائي بطولة كرة طائرة وطني نتيجة  sport          193        1076            191         1030            189          987
+2   افتتح معرض فني فنان مبدع عرض أحدث أعمال تشكيل  art          450        2551            442         2496            438         2420
 ...  ...
 ```
 
