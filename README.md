@@ -117,8 +117,11 @@ Number of Characters after (Text Steamming) step : 25694698
 
 -----------------------------
 
-Time required to complete pre-processing steps: 453.09  second  ( 7.55  minute). 
+Time required to complete pre-processing steps: 453.09  second  ( 7.55  minute).
+
+-----------------------------
 ```
+![arabicprocess chart if chart==True](https://github.com/AhmedAldulaimi96/arabicprocess/blob/main/images/chart.png)
 
 - If you set the `csv` parameter to `True`, each of these datasets will be saved as CSV files after their respective preprocessing stages. You will get CSV files for the data after data cleaning, stop word removal, and stemming with the filenames `1after_Cleaning.csv`, `2after_Stop_word_remove.csv`, and `3after_stemming.csv`, respectively. These CSV files will contain the preprocessed data with the respective columns for tokens and characters counts.
 
