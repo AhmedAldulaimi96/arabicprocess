@@ -9,9 +9,6 @@ The `arabicprocess` class is designed to perform various text preprocessing step
 
 `arabicprocess` is built on top of popular Python libraries such as NLTK, NumPy, Pandas, Seaborn, and Matplotlib. It is easy to use, efficient, and suitable for various NLP tasks, including text classification, sentiment analysis, and topic modeling.
 
-Please refer to the documentation for more details and examples on how to use arabicprocess in your projects. Your feedback and contributions are highly appreciated as we aim to continuously improve the library and make it more useful for the Arabic NLP community.
-
-
 ### Class Initialization:
 
 ```python
@@ -164,7 +161,8 @@ If you find this package useful and utilize it in your research or projects, we 
 
 ### Documentation
 
-Find more information in the [documentation](https://link-to-documentation).
+Please refer to the documentation for more details and examples on how to use arabicprocess in your projects. Your feedback and contributions are highly appreciated as we aim to continuously improve the library and make it more useful for the Arabic NLP community.
+Find more information in the [documentation](https://pypi.org/project/arabicprocess/).
 
 ### License
 
