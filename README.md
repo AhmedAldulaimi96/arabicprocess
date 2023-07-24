@@ -154,6 +154,13 @@ text                                              label  tokens_count  char_coun
 
 The `tokens_count`, `char_count`, `tokens_count2`, `char_count2`, `tokens_count3`, and `char_count3` columns represent the number of tokens and characters at different stages of preprocessing, 1 for `data cleaning`, 2 for `stop word removal`, and 3 for `stemming`.
 
+### **Package Efficiency and Validation**
+
+This package has been rigorously tested and validated in the research paper titled "**Efficient Arabic Text Classification Using Feature Selection Techniques and Genetic Algorithm**" which was published in IEEE. The paper can be accessed at the following link: [IEEE Xplore - Efficient Arabic Text Classification](https://ieeexplore.ieee.org/abstract/document/9998255).
+
+### Citation
+
+If you find this package useful and utilize it in your research or projects, we kindly request that you cite the original research paper: [Efficient Arabic Text Classification](https://ieeexplore.ieee.org/abstract/document/9998255).
 
 ### Documentation
 
