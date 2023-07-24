@@ -161,7 +161,7 @@ text                                              label  tokens_count  char_coun
 ...  ...
 ```
 
-The `tokens_count`, `char_count`, `tokens_count2`, and `char_count2` columns represent the number of tokens and characters at different stages of preprocessing.
+The `tokens_count`, `char_count`, `tokens_count2`, `char_count2`, `tokens_count3`, and `char_count3` columns represent the number of tokens and characters at different stages of preprocessing, 1 for `data cleaning`, 2 for `stop word removal`, and 3 for `stemming`.
 
 
 ### Documentation
