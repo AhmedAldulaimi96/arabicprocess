@@ -170,4 +170,4 @@ Find more information in the [documentation](https://link-to-documentation).
 
 ### License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. Find more information about MIT License [HERE](https://opensource.org/licenses/MIT).
