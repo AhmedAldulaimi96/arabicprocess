@@ -27,21 +27,21 @@ process(process_list=['clean','st_remove','stemm'], details=True, chart=True, cs
 Here's how you can use the `arabicprocess` package:
 
 ```python
+# Load your dataset (MAKE SURE TO ADD encoding='utf-8', if you dont add it may cause problems)
+import pandas as pd
+My_Dataset = pd.read_csv('your_dataset.csv', encoding='utf-8')
+
 #install arabicprocess package
 pip install arabicprocess
 
 #Import process class from arabicprocess library
 from arabicprocess import process
 
-# Load your dataset (MAKE SURE TO ADD encoding='utf-8', if you dont add it may cause problems)
-import pandas as pd
-dataset = pd.read_csv('your_dataset.csv', encoding='utf-8')
-
 # Initialize the arabicprocess object
 arabic_processor = process(process_list=['clean', 'st_remove', 'stemm'], details=True, chart=True, csv=True, column_stay=True)
 
 # Perform preprocessing on the dataset
-arabic_processor.main(dataset)
+arabic_processor.main(dataset=My_Dataset)
 ```
 
 The class will perform the preprocessing steps based on the `process_list` specified during initialization. It will display detailed information about the preprocessing steps and generate charts if `details` and `chart` are set to `True`. If `csv` is set to `True`, the preprocessed datasets will be saved as CSV files after each preprocessing step.
